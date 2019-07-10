@@ -3,14 +3,12 @@
 % Distributed under the Boost Software License, Version 1.0. (See accompanying
 % file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-% $$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Based on:
 % https://www.overleaf.com/latex/templates/weekly-report-template/pmkfvrzqjmtf
-% $$$$$$$$$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[12pt]{report}
-\usepackage[a4paper]{geometry}
-\usepackage[myheadings]{fullpage}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{graphicx, wrapfig, subcaption, setspace, booktabs}
@@ -24,11 +22,14 @@
 \usepackage{tgbonum}
 \usepackage[hidelinks, bookmarksopen=true,bookmarks=true]{hyperref}
 \usepackage{xcolor}
+\usepackage{titlesec}
+\titleformat{\chapter}
+  {\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
 
 \newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
 \onehalfspacing
-\setcounter{tocdepth}{5}
-\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{1}
 
 
 
@@ -75,26 +76,44 @@
 % BODY
 % ------------------------------------------------------------------------------
 %
-
-\section{Implementation Updates}
+\chapter{2019-07-08}
+\section*{Implementation Updates}
 What has been implemented, \dots
 
-\section{Theoretical Updates}
+\section*{Theoretical Updates}
 Any theoretical, algorithmic progress, i.e., new ideas to pursue, paper write
 ups, \dots
 
-\section{Issues}
+\section*{Issues}
 Issues you encountered in regards with your theoretical or implementation work.
 
-\section{Resolved Issues}
+\section*{Resolved Issues}
 Issues you encountered this past week (theory or implementation).
 
-\section{Highlights of the Week}
+\section*{Highlights of the Week}
 Paper got published, targeting a deadline, \dots
 
-\section{Next Week's Objectives}
+\section*{Next Week's Objectives}
 What are your plans for the next week.
 
+\chapter{2019-07-08}
+\section*{Implementation Updates}
+\dots
+
+\section*{Theoretical Updates}
+\dots
+
+\section*{Issues}
+\dots
+
+\section*{Resolved Issues}
+\dots
+
+\section*{Highlights of the Week}
+\dots
+
+\section*{Next Week's Objectives}
+\dots
 
 % ------------------------------------------------------------------------------
 % REFERENCES
